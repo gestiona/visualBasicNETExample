@@ -13,12 +13,12 @@ Imports Newtonsoft.Json.Linq
 Module Module1
 
     Private httpClient As HttpClient = Nothing
-    Private serverURL As String = "http://192.168.5.105:8080/rest/"
-    Private addon As String = "_gecor-registry8"
+    Private serverURL As String = "https://02.g3stiona.com/rest/"
+    Private addon As String = ADDON_CORRESPONDIENTE
     Private recursosDictionary As New Dictionary(Of String, String)()
-    Private token As String = "_OGkQNittKMTuJKjbMKg4xQ__1"
-    Private accessToken As String = "_ok6xLblsp5jBmtvZmhasug__c"
-    Private tokenAutorizado As Boolean = True
+    Private token As String = ""
+    Private accessToken As String = ""
+    Private tokenAutorizado As Boolean = False
 
     Sub Main()
 
